@@ -8,6 +8,6 @@ EXPOSE 5000
 
 RUN pip3 install -r requirements.txt  && rm requirements.txt
 
-ENTRYPOINT [ "python" ]
+ENTRYPOINT [ "python3" ]
 
 CMD [ "app.py" ]
